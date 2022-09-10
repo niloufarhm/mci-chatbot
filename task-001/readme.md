@@ -13,15 +13,15 @@
 در پایان با استفاده از نتایج به دست آمده، Word Error Rate را محاسبه کردیم. نتیجه هر سه مدل با هم برابر بود زیرا خروجی مدل ها یکی بود. 
 
 
-Hello
-This task aims to develop a speech recognition application for the Persian language.
-The models available in Kaldi and Vosk framework were used for this work.
-The code related to this task is divided into four parts:
-1-recording audio
- This is the recording section, I use an HTML code to create a line for voice recording and run it, and the user ends the recording process by pressing the button. Then, by processing the recorded sound, I convert it into a suitable format and perform normalization. In this way, I was able to connect to the microphone and record my voice in the desired format
-2-Vosk models
-This section consists of two sub-sections; in the first sub-section (downloading models from Vosk), pre-trained Persian language models are located on the Vosk website, downloaded, and saved in the desired folder. In the other sub-section, I developed the model, implemented three different Vosk pre-trained models, and created a recognizer for each.
-3-test
-In the test section, we recorded an audio file and checked the results for each model
-4-results
-In the end, using the obtained results, I calculated the Word Error Rate. The results for all three models were equal because the output of the models was the same.
+<br><br><br>Hello
+<br>This task aims to develop a speech recognition application for the Persian language.
+<br>The models available in Kaldi and Vosk framework were used for this work.
+<br>The code related to this task is divided into four parts:
+<br>1-recording audio
+ <br>This is the recording section, I use an HTML code to create a line for voice recording and run it, and the user ends the recording process by pressing the button. Then, by processing the recorded sound, I convert it into a suitable format and perform normalization. In this way, I was able to connect to the microphone and record my voice in the desired format
+<br>2-Vosk models
+<br>This section consists of two sub-sections; in the first sub-section (downloading models from Vosk), pre-trained Persian language models are located on the Vosk website, downloaded, and saved in the desired folder. In the other sub-section, I developed the model, implemented three different Vosk pre-trained models, and created a recognizer for each.
+<br>3-test
+<br>In the test section, we recorded an audio file and checked the results for each model
+<br>4-results
+<br>In the end, using the obtained results, I calculated the Word Error Rate. The results for all three models were equal because the output of the models was the same.
